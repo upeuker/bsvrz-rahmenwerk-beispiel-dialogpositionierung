@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Dialogpositionierung Beispiel
+Bundle-SymbolicName: net.upeuker.bsvrz.buv.sample.dialogpos;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: org.eclipse.ui;bundle-version="3.105.0",
+ org.eclipse.core.runtime;bundle-version="3.9.0",
+ de.bsvrz.buv.rw.basislib;bundle-version="2.0.0"

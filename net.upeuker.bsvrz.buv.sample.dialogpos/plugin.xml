@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.views">
+      <view
+            class="net.upeuker.bsvrz.buv.sample.dialogpos.DialogsView"
+            id="net.upeuker.bsvrz.buv.sample.dialogpos.dialogview"
+            name="DialogView"
+            restorable="true">
+      </view>
+   </extension>
+
+</plugin>

@@ -1,3 +1,13 @@
+/*
+ * Beispiel-Plugin zur Demonstration der Positionierung von Dialogen mit den 
+ * Hilfsklassen aus dem Rahmenwerk-Basis-Pluig-in.
+ *
+ * Copyright (c) 2013 Uwe Peuker.
+ * 
+ * All rights reserved. This program and the accompanying materials
+ * are made available under the terms of the GPL v3.
+ */
+
 package net.upeuker.bsvrz.buv.sample.dialogpos;
 
 import org.eclipse.jface.dialogs.Dialog;
@@ -12,6 +22,17 @@ import org.eclipse.ui.part.ViewPart;
 
 import de.bsvrz.buv.rw.basislib.util.DefaultDialogPosition;
 
+/**
+ * Testansicht, mit dem Dialoge mit verschiedenen Positionierungen geöffnet
+ * werden können.
+ * 
+ * Für alle Positionen vom Typ {@link DefaultDialogPosition} und 5 mit Namen
+ * versehene Dialoge sind Schaltflächen vorhanden, über dem der jeweilige Dialog
+ * angezeigt wird.
+ * 
+ * @author Uwe Peuker
+ * 
+ */
 public class DialogsView extends ViewPart {
 
 	@Override
@@ -94,6 +115,6 @@ public class DialogsView extends ViewPart {
 
 	@Override
 	public void setFocus() {
-		// TODO Auto-generated method stub
+		// wird nicht behandelt
 	}
 }
